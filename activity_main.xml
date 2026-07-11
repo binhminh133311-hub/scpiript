@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:text="GAME BOOSTER"
+        android:textSize="28sp"
+        android:textColor="#e94560"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Redmi Note 12"
+        android:textSize="14sp"
+        android:textColor="#888888"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:text="Game Mode: TẮT"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnOn"
+        android:text="BẬT GAME MODE"
+        android:textColor="#ffffff"
+        android:backgroundTint="#e94560"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnOff"
+        android:text="TẮT GAME MODE"
+        android:textColor="#ffffff"
+        android:backgroundTint="#444444"
+        android:layout_width="200dp"
+        android:layout_height="56dp"/>
+
+</LinearLayout>
